@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6C5C7DA1C5F075E00FFD1E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C5C7D91C5F075E00FFD1E2 /* AppDelegate.m */; };
+		C6C5C7DD1C5F075E00FFD1E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C5C7DC1C5F075E00FFD1E2 /* main.m */; };
+		C6C5C7DF1C5F075E00FFD1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C5C7DE1C5F075E00FFD1E2 /* Assets.xcassets */; };
+		C6C5C7E21C5F075E00FFD1E2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6C5C7E01C5F075E00FFD1E2 /* MainMenu.xib */; };
+		C6C5C7F11C5F079700FFD1E2 /* XenNotesImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C5C7EB1C5F079700FFD1E2 /* XenNotesImageView.m */; };
+		C6C5C7F31C5F079700FFD1E2 /* OpenNoteTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C5C7EF1C5F079700FFD1E2 /* OpenNoteTableView.m */; };
+		C6C5C7FA1C5F07A400FFD1E2 /* Notebook.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C5C7F51C5F07A400FFD1E2 /* Notebook.m */; };
+		C6C5C7FB1C5F07A400FFD1E2 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C5C7F71C5F07A400FFD1E2 /* Section.m */; };
+		C6C5C7FC1C5F07A400FFD1E2 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C5C7F91C5F07A400FFD1E2 /* Note.m */; };
+		C6C5C7FF1C5F07B300FFD1E2 /* NotebookController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C5C7FE1C5F07B300FFD1E2 /* NotebookController.m */; };
+		C6C5C8011C5F07FB00FFD1E2 /* Notebook.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6C5C8001C5F07FB00FFD1E2 /* Notebook.xib */; };
+		C6C5C8081C5F0A9300FFD1E2 /* OpenNotebookWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C5C8061C5F0A9300FFD1E2 /* OpenNotebookWindowController.m */; };
+		C6C5C8091C5F0A9300FFD1E2 /* OpenNotebookWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6C5C8071C5F0A9300FFD1E2 /* OpenNotebookWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6C5C7D51C5F075E00FFD1E2 /* XenNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XenNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C5C7D81C5F075E00FFD1E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6C5C7D91C5F075E00FFD1E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6C5C7DC1C5F075E00FFD1E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6C5C7DE1C5F075E00FFD1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6C5C7E11C5F075E00FFD1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C6C5C7E31C5F075E00FFD1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6C5C7EA1C5F079700FFD1E2 /* XenNotesImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XenNotesImageView.h; sourceTree = "<group>"; };
+		C6C5C7EB1C5F079700FFD1E2 /* XenNotesImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XenNotesImageView.m; sourceTree = "<group>"; };
+		C6C5C7EE1C5F079700FFD1E2 /* OpenNoteTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenNoteTableView.h; sourceTree = "<group>"; };
+		C6C5C7EF1C5F079700FFD1E2 /* OpenNoteTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenNoteTableView.m; sourceTree = "<group>"; };
+		C6C5C7F41C5F07A400FFD1E2 /* Notebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notebook.h; sourceTree = "<group>"; };
+		C6C5C7F51C5F07A400FFD1E2 /* Notebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notebook.m; sourceTree = "<group>"; };
+		C6C5C7F61C5F07A400FFD1E2 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		C6C5C7F71C5F07A400FFD1E2 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		C6C5C7F81C5F07A400FFD1E2 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		C6C5C7F91C5F07A400FFD1E2 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		C6C5C7FD1C5F07B300FFD1E2 /* NotebookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotebookController.h; sourceTree = "<group>"; };
+		C6C5C7FE1C5F07B300FFD1E2 /* NotebookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotebookController.m; sourceTree = "<group>"; };
+		C6C5C8001C5F07FB00FFD1E2 /* Notebook.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Notebook.xib; sourceTree = "<group>"; };
+		C6C5C8051C5F0A9300FFD1E2 /* OpenNotebookWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenNotebookWindowController.h; sourceTree = "<group>"; };
+		C6C5C8061C5F0A9300FFD1E2 /* OpenNotebookWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenNotebookWindowController.m; sourceTree = "<group>"; };
+		C6C5C8071C5F0A9300FFD1E2 /* OpenNotebookWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenNotebookWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6C5C7D21C5F075E00FFD1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6C5C7CC1C5F075E00FFD1E2 = {
+			isa = PBXGroup;
+			children = (
+				C6C5C7D71C5F075E00FFD1E2 /* XenNotebook */,
+				C6C5C7D61C5F075E00FFD1E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6C5C7D61C5F075E00FFD1E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6C5C7D51C5F075E00FFD1E2 /* XenNotebook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6C5C7D71C5F075E00FFD1E2 /* XenNotebook */ = {
+			isa = PBXGroup;
+			children = (
+				C6C5C80D1C5F136400FFD1E2 /* NIBs */,
+				C6C5C80C1C5F131B00FFD1E2 /* Controllers */,
+				C6C5C80B1C5F131500FFD1E2 /* Model */,
+				C6C5C80A1C5F130F00FFD1E2 /* Views */,
+				C6C5C7DE1C5F075E00FFD1E2 /* Assets.xcassets */,
+				C6C5C7E31C5F075E00FFD1E2 /* Info.plist */,
+				C6C5C7DB1C5F075E00FFD1E2 /* Supporting Files */,
+			);
+			path = XenNotebook;
+			sourceTree = "<group>";
+		};
+		C6C5C7DB1C5F075E00FFD1E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6C5C7DC1C5F075E00FFD1E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6C5C80A1C5F130F00FFD1E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6C5C7EA1C5F079700FFD1E2 /* XenNotesImageView.h */,
+				C6C5C7EB1C5F079700FFD1E2 /* XenNotesImageView.m */,
+				C6C5C7EE1C5F079700FFD1E2 /* OpenNoteTableView.h */,
+				C6C5C7EF1C5F079700FFD1E2 /* OpenNoteTableView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C6C5C80B1C5F131500FFD1E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6C5C7F41C5F07A400FFD1E2 /* Notebook.h */,
+				C6C5C7F51C5F07A400FFD1E2 /* Notebook.m */,
+				C6C5C7F61C5F07A400FFD1E2 /* Section.h */,
+				C6C5C7F71C5F07A400FFD1E2 /* Section.m */,
+				C6C5C7F81C5F07A400FFD1E2 /* Note.h */,
+				C6C5C7F91C5F07A400FFD1E2 /* Note.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C6C5C80C1C5F131B00FFD1E2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6C5C7D81C5F075E00FFD1E2 /* AppDelegate.h */,
+				C6C5C7D91C5F075E00FFD1E2 /* AppDelegate.m */,
+				C6C5C8051C5F0A9300FFD1E2 /* OpenNotebookWindowController.h */,
+				C6C5C8061C5F0A9300FFD1E2 /* OpenNotebookWindowController.m */,
+				C6C5C7FD1C5F07B300FFD1E2 /* NotebookController.h */,
+				C6C5C7FE1C5F07B300FFD1E2 /* NotebookController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C6C5C80D1C5F136400FFD1E2 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				C6C5C7E01C5F075E00FFD1E2 /* MainMenu.xib */,
+				C6C5C8071C5F0A9300FFD1E2 /* OpenNotebookWindow.xib */,
+				C6C5C8001C5F07FB00FFD1E2 /* Notebook.xib */,
+			);
+			name = NIBs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6C5C7D41C5F075E00FFD1E2 /* XenNotebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C5C7E61C5F075E00FFD1E2 /* Build configuration list for PBXNativeTarget "XenNotebook" */;
+			buildPhases = (
+				C6C5C7D11C5F075E00FFD1E2 /* Sources */,
+				C6C5C7D21C5F075E00FFD1E2 /* Frameworks */,
+				C6C5C7D31C5F075E00FFD1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XenNotebook;
+			productName = XenNotebook;
+			productReference = C6C5C7D51C5F075E00FFD1E2 /* XenNotebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6C5C7CD1C5F075E00FFD1E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Quentin Berry";
+				TargetAttributes = {
+					C6C5C7D41C5F075E00FFD1E2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C6C5C7D01C5F075E00FFD1E2 /* Build configuration list for PBXProject "XenNotebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6C5C7CC1C5F075E00FFD1E2;
+			productRefGroup = C6C5C7D61C5F075E00FFD1E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6C5C7D41C5F075E00FFD1E2 /* XenNotebook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6C5C7D31C5F075E00FFD1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C5C8091C5F0A9300FFD1E2 /* OpenNotebookWindow.xib in Resources */,
+				C6C5C7DF1C5F075E00FFD1E2 /* Assets.xcassets in Resources */,
+				C6C5C8011C5F07FB00FFD1E2 /* Notebook.xib in Resources */,
+				C6C5C7E21C5F075E00FFD1E2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6C5C7D11C5F075E00FFD1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C5C7F31C5F079700FFD1E2 /* OpenNoteTableView.m in Sources */,
+				C6C5C7DD1C5F075E00FFD1E2 /* main.m in Sources */,
+				C6C5C7FA1C5F07A400FFD1E2 /* Notebook.m in Sources */,
+				C6C5C7DA1C5F075E00FFD1E2 /* AppDelegate.m in Sources */,
+				C6C5C7FB1C5F07A400FFD1E2 /* Section.m in Sources */,
+				C6C5C7FF1C5F07B300FFD1E2 /* NotebookController.m in Sources */,
+				C6C5C7F11C5F079700FFD1E2 /* XenNotesImageView.m in Sources */,
+				C6C5C8081C5F0A9300FFD1E2 /* OpenNotebookWindowController.m in Sources */,
+				C6C5C7FC1C5F07A400FFD1E2 /* Note.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6C5C7E01C5F075E00FFD1E2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6C5C7E11C5F075E00FFD1E2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6C5C7E41C5F075E00FFD1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C6C5C7E51C5F075E00FFD1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C6C5C7E71C5F075E00FFD1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XenNotebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.qbxen.XenNotebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6C5C7E81C5F075E00FFD1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XenNotebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.qbxen.XenNotebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6C5C7D01C5F075E00FFD1E2 /* Build configuration list for PBXProject "XenNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C5C7E41C5F075E00FFD1E2 /* Debug */,
+				C6C5C7E51C5F075E00FFD1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6C5C7E61C5F075E00FFD1E2 /* Build configuration list for PBXNativeTarget "XenNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C5C7E71C5F075E00FFD1E2 /* Debug */,
+				C6C5C7E81C5F075E00FFD1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6C5C7CD1C5F075E00FFD1E2 /* Project object */;
+}
